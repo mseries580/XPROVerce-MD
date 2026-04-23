@@ -14,10 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 350
 
-    # 🔥 YAHI MAIN FIX HAI
-    env:
-      SESSION_ID: ${{ secrets.SESSION_ID }}
-
     steps:
       - name: Checkout Latest Repo
         uses: actions/checkout@v3
